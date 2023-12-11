@@ -23,9 +23,9 @@ compile = False # use PyTorch 2.0 to compile the model to be faster
 exec(open('configurator.py').read()) # overrides from command line or config file
 # -----------------------------------------------------------------------------
 temperature = 0.2 # setting it low for minimum randomness
-top_k = 5 # setting top-k sampling to 5
-# start = "FILE:your_input_file.txt" # replace with your file's path
-max_new_tokens = 10 # adjust this based on the average sentence length you expect
+top_k = 5  # setting top-k sampling to 5
+start = "FILE:predict.txt" # replace with your file's path
+max_new_tokens = 11 # adjust this based on the average sentence length you expect
 # -----------------------------------------------------------------------------
 
 
